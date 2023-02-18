@@ -33,7 +33,7 @@ find . -not -name "*.h" -not -name "*.hpp" -not -name "*.cpp" -not -type d|wc -l
 realpath any.hpp
 Получил /home/admino/boost_1_69_0/boost/any.hpp
 
-7.Нашел  все файлы, где упоминалась боследовательность "boost::asio"
+7.Нашел  все файлы, где упоминалась последовательность "boost::asio"
 Перешел в начало командой cd
 grep -r "boost::asio"|wc -l - если содержит внутри искомую строку, считаем
 Их число 17424
